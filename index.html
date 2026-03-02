@@ -1,0 +1,13 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+// On importe votre composant principal
+import App from './AeroPaceStudio.tsx'
+// On importe le fichier CSS qui contient Tailwind
+import './index.css'
+
+// On cible la div "root" de l'index.html et on y rend l'application
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
