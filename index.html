@@ -1,13 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-// On importe votre composant principal
-import App from './AeroPaceStudio.tsx'
-// On importe le fichier CSS qui contient Tailwind
-import './index.css'
-
-// On cible la div "root" de l'index.html et on y rend l'application
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroPace Studio</title>
+  </head>
+  <body>
+    <!-- C'est ici que React va injecter toute votre application -->
+    <div id="root"></div>
+    
+    <!-- Le script principal qui lance React -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
