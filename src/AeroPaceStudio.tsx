@@ -3,7 +3,7 @@ import {
   Activity, Calendar as CalIcon, BarChart3, Settings as SettingsIcon, 
   Plus, ChevronLeft, ChevronRight, Map, Heart, Zap, Clock, 
   TrendingUp, AlertTriangle, Upload, RefreshCw, X, Menu,
-  Target, Award, Flame
+  Target, Award, Flame, CheckCircle2
 } from 'lucide-react';
 
 // --- TYPES ---
